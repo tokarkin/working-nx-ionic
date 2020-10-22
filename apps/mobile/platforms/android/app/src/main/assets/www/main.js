@@ -1,423 +1,5 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
-/***/ "../../node_modules/@ionic/core/dist/esm-es5 lazy recursive ^\\.\\/.*\\.entry\\.js$ include: \\.entry\\.js$ exclude: \\.system\\.entry\\.js$":
-/*!****************************************************************************************************************************************************************************************!*\
-  !*** /Users/sportkatie/Downloads/ionicnx-master 2/node_modules/@ionic/core/dist/esm-es5 lazy ^\.\/.*\.entry\.js$ include: \.entry\.js$ exclude: \.system\.entry\.js$ namespace object ***!
-  \****************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"./ion-action-sheet-controller_8.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-action-sheet-controller_8.entry.js",
-		"common",
-		12
-	],
-	"./ion-action-sheet-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-action-sheet-ios.entry.js",
-		"common",
-		13
-	],
-	"./ion-action-sheet-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-action-sheet-md.entry.js",
-		"common",
-		14
-	],
-	"./ion-alert-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-alert-ios.entry.js",
-		"common",
-		15
-	],
-	"./ion-alert-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-alert-md.entry.js",
-		"common",
-		16
-	],
-	"./ion-app_8-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-app_8-ios.entry.js",
-		0,
-		"common",
-		17
-	],
-	"./ion-app_8-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-app_8-md.entry.js",
-		0,
-		"common",
-		18
-	],
-	"./ion-avatar_3-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-avatar_3-ios.entry.js",
-		"common",
-		19
-	],
-	"./ion-avatar_3-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-avatar_3-md.entry.js",
-		"common",
-		20
-	],
-	"./ion-back-button-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-back-button-ios.entry.js",
-		"common",
-		21
-	],
-	"./ion-back-button-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-back-button-md.entry.js",
-		"common",
-		22
-	],
-	"./ion-backdrop-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-backdrop-ios.entry.js",
-		23
-	],
-	"./ion-backdrop-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-backdrop-md.entry.js",
-		24
-	],
-	"./ion-button_2-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-button_2-ios.entry.js",
-		"common",
-		25
-	],
-	"./ion-button_2-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-button_2-md.entry.js",
-		"common",
-		26
-	],
-	"./ion-card_5-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-card_5-ios.entry.js",
-		"common",
-		27
-	],
-	"./ion-card_5-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-card_5-md.entry.js",
-		"common",
-		28
-	],
-	"./ion-checkbox-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-checkbox-ios.entry.js",
-		"common",
-		29
-	],
-	"./ion-checkbox-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-checkbox-md.entry.js",
-		"common",
-		30
-	],
-	"./ion-chip-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-chip-ios.entry.js",
-		"common",
-		31
-	],
-	"./ion-chip-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-chip-md.entry.js",
-		"common",
-		32
-	],
-	"./ion-col_3.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-col_3.entry.js",
-		33
-	],
-	"./ion-datetime_3-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-datetime_3-ios.entry.js",
-		"common",
-		34
-	],
-	"./ion-datetime_3-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-datetime_3-md.entry.js",
-		"common",
-		35
-	],
-	"./ion-fab_3-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-fab_3-ios.entry.js",
-		"common",
-		36
-	],
-	"./ion-fab_3-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-fab_3-md.entry.js",
-		"common",
-		37
-	],
-	"./ion-img.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-img.entry.js",
-		38
-	],
-	"./ion-infinite-scroll_2-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-infinite-scroll_2-ios.entry.js",
-		"common",
-		39
-	],
-	"./ion-infinite-scroll_2-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-infinite-scroll_2-md.entry.js",
-		"common",
-		40
-	],
-	"./ion-input-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-input-ios.entry.js",
-		"common",
-		41
-	],
-	"./ion-input-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-input-md.entry.js",
-		"common",
-		42
-	],
-	"./ion-item-option_3-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-item-option_3-ios.entry.js",
-		"common",
-		43
-	],
-	"./ion-item-option_3-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-item-option_3-md.entry.js",
-		"common",
-		44
-	],
-	"./ion-item_8-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-item_8-ios.entry.js",
-		"common",
-		45
-	],
-	"./ion-item_8-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-item_8-md.entry.js",
-		"common",
-		46
-	],
-	"./ion-loading-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-loading-ios.entry.js",
-		"common",
-		47
-	],
-	"./ion-loading-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-loading-md.entry.js",
-		"common",
-		48
-	],
-	"./ion-menu_4-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-menu_4-ios.entry.js",
-		"common",
-		49
-	],
-	"./ion-menu_4-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-menu_4-md.entry.js",
-		"common",
-		50
-	],
-	"./ion-modal-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-modal-ios.entry.js",
-		0,
-		"common",
-		51
-	],
-	"./ion-modal-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-modal-md.entry.js",
-		0,
-		"common",
-		52
-	],
-	"./ion-nav_5.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-nav_5.entry.js",
-		0,
-		"common",
-		53
-	],
-	"./ion-popover-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-popover-ios.entry.js",
-		0,
-		"common",
-		54
-	],
-	"./ion-popover-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-popover-md.entry.js",
-		0,
-		"common",
-		55
-	],
-	"./ion-progress-bar-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-progress-bar-ios.entry.js",
-		"common",
-		56
-	],
-	"./ion-progress-bar-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-progress-bar-md.entry.js",
-		"common",
-		57
-	],
-	"./ion-radio_2-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-radio_2-ios.entry.js",
-		"common",
-		58
-	],
-	"./ion-radio_2-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-radio_2-md.entry.js",
-		"common",
-		59
-	],
-	"./ion-range-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-range-ios.entry.js",
-		"common",
-		60
-	],
-	"./ion-range-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-range-md.entry.js",
-		"common",
-		61
-	],
-	"./ion-refresher_2-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-refresher_2-ios.entry.js",
-		"common",
-		62
-	],
-	"./ion-refresher_2-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-refresher_2-md.entry.js",
-		"common",
-		63
-	],
-	"./ion-reorder_2-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-reorder_2-ios.entry.js",
-		"common",
-		64
-	],
-	"./ion-reorder_2-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-reorder_2-md.entry.js",
-		"common",
-		65
-	],
-	"./ion-ripple-effect.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-ripple-effect.entry.js",
-		66
-	],
-	"./ion-route_4.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-route_4.entry.js",
-		"common",
-		67
-	],
-	"./ion-searchbar-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-searchbar-ios.entry.js",
-		"common",
-		68
-	],
-	"./ion-searchbar-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-searchbar-md.entry.js",
-		"common",
-		69
-	],
-	"./ion-segment_2-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-segment_2-ios.entry.js",
-		"common",
-		70
-	],
-	"./ion-segment_2-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-segment_2-md.entry.js",
-		"common",
-		71
-	],
-	"./ion-select_3-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-select_3-ios.entry.js",
-		"common",
-		72
-	],
-	"./ion-select_3-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-select_3-md.entry.js",
-		"common",
-		73
-	],
-	"./ion-slide_2-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-slide_2-ios.entry.js",
-		74
-	],
-	"./ion-slide_2-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-slide_2-md.entry.js",
-		75
-	],
-	"./ion-spinner.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-spinner.entry.js",
-		"common",
-		76
-	],
-	"./ion-split-pane-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-split-pane-ios.entry.js",
-		77
-	],
-	"./ion-split-pane-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-split-pane-md.entry.js",
-		78
-	],
-	"./ion-tab-bar_2-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-tab-bar_2-ios.entry.js",
-		"common",
-		79
-	],
-	"./ion-tab-bar_2-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-tab-bar_2-md.entry.js",
-		"common",
-		80
-	],
-	"./ion-tab_2.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-tab_2.entry.js",
-		"common",
-		9
-	],
-	"./ion-text.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-text.entry.js",
-		"common",
-		81
-	],
-	"./ion-textarea-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-textarea-ios.entry.js",
-		"common",
-		82
-	],
-	"./ion-textarea-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-textarea-md.entry.js",
-		"common",
-		83
-	],
-	"./ion-toast-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-toast-ios.entry.js",
-		"common",
-		84
-	],
-	"./ion-toast-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-toast-md.entry.js",
-		"common",
-		85
-	],
-	"./ion-toggle-ios.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-toggle-ios.entry.js",
-		"common",
-		86
-	],
-	"./ion-toggle-md.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-toggle-md.entry.js",
-		"common",
-		87
-	],
-	"./ion-virtual-scroll.entry.js": [
-		"../../node_modules/@ionic/core/dist/esm-es5/ion-virtual-scroll.entry.js",
-		88
-	]
-};
-function webpackAsyncContext(req) {
-	var ids = map[req];
-	if(!ids) {
-		return Promise.resolve().then(function() {
-			var e = new Error("Cannot find module '" + req + "'");
-			e.code = 'MODULE_NOT_FOUND';
-			throw e;
-		});
-	}
-	return Promise.all(ids.slice(1).map(__webpack_require__.e)).then(function() {
-		var id = ids[0];
-		return __webpack_require__(id);
-	});
-}
-webpackAsyncContext.keys = function webpackAsyncContextKeys() {
-	return Object.keys(map);
-};
-webpackAsyncContext.id = "../../node_modules/@ionic/core/dist/esm-es5 lazy recursive ^\\.\\/.*\\.entry\\.js$ include: \\.entry\\.js$ exclude: \\.system\\.entry\\.js$";
-module.exports = webpackAsyncContext;
-
-/***/ }),
-
 /***/ "./$$_lazy_route_resource lazy recursive":
 /*!******************************************************!*\
   !*** ./$$_lazy_route_resource lazy namespace object ***!
@@ -441,6 +23,17 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 /***/ }),
 
+/***/ "./src/app/app.component.css":
+/*!***********************************!*\
+  !*** ./src/app/app.component.css ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/*\n * Remove template code below\n */\n:host {\n  display: block;\n  font-family: sans-serif;\n  min-width: 300px;\n  max-width: 600px;\n  margin: 50px auto;\n}\n.gutter-left {\n  margin-left: 9px;\n}\n.col-span-2 {\n  grid-column: span 2;\n}\n.flex {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\nheader {\n  background-color: #143055;\n  color: white;\n  padding: 5px;\n  border-radius: 3px;\n}\nmain {\n  padding: 0 36px;\n}\np {\n  text-align: center;\n}\nh1 {\n  text-align: center;\n  margin-left: 18px;\n  font-size: 24px;\n}\nh2 {\n  text-align: center;\n  font-size: 20px;\n  margin: 40px 0 10px 0;\n}\n.resources {\n  text-align: center;\n  list-style: none;\n  padding: 0;\n  display: grid;\n  grid-gap: 9px;\n  grid-template-columns: 1fr 1fr;\n}\n.resource {\n  color: #0094ba;\n  height: 36px;\n  background-color: rgba(0, 0, 0, 0);\n  border: 1px solid rgba(0, 0, 0, 0.12);\n  border-radius: 4px;\n  padding: 3px 9px;\n  text-decoration: none;\n}\n.resource:hover {\n  background-color: rgba(68, 138, 255, 0.04);\n}\npre {\n  padding: 9px;\n  border-radius: 4px;\n  background-color: black;\n  color: #eee;\n}\ndetails {\n  border-radius: 4px;\n  color: #333;\n  background-color: rgba(0, 0, 0, 0);\n  border: 1px solid rgba(0, 0, 0, 0.12);\n  padding: 3px 9px;\n  margin-bottom: 9px;\n}\nsummary {\n  cursor: pointer;\n  outline: none;\n  height: 36px;\n  line-height: 36px;\n}\n.github-star-container {\n  margin-top: 12px;\n  line-height: 20px;\n}\n.github-star-container a {\n  display: flex;\n  align-items: center;\n  text-decoration: none;\n  color: #333;\n}\n.github-star-badge {\n  color: #24292e;\n  display: flex;\n  align-items: center;\n  font-size: 12px;\n  padding: 3px 10px;\n  border: 1px solid rgba(27, 31, 35, 0.2);\n  border-radius: 3px;\n  background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);\n  margin-left: 4px;\n  font-weight: 600;\n}\n.github-star-badge:hover {\n  background-image: linear-gradient(-180deg, #f0f3f6, #e6ebf1 90%);\n  border-color: rgba(27, 31, 35, 0.35);\n  background-position: -0.5em;\n}\n.github-star-badge .material-icons {\n  height: 16px;\n  width: 16px;\n  margin-right: 4px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFDSDtFQUNFLGVBQWU7RUFDZix3QkFBd0I7RUFDeEIsaUJBQWlCO0VBQ2pCLGlCQUFpQjtFQUNqQixrQkFBa0I7Q0FDbkI7QUFFRDtFQUNFLGlCQUFpQjtDQUNsQjtBQUVEO0VBQ0Usb0JBQW9CO0NBQ3JCO0FBRUQ7RUFDRSxjQUFjO0VBQ2Qsb0JBQW9CO0VBQ3BCLHdCQUF3QjtDQUN6QjtBQUVEO0VBQ0UsMEJBQTBCO0VBQzFCLGFBQWE7RUFDYixhQUFhO0VBQ2IsbUJBQW1CO0NBQ3BCO0FBRUQ7RUFDRSxnQkFBZ0I7Q0FDakI7QUFFRDtFQUNFLG1CQUFtQjtDQUNwQjtBQUVEO0VBQ0UsbUJBQW1CO0VBQ25CLGtCQUFrQjtFQUNsQixnQkFBZ0I7Q0FDakI7QUFFRDtFQUNFLG1CQUFtQjtFQUNuQixnQkFBZ0I7RUFDaEIsc0JBQXNCO0NBQ3ZCO0FBRUQ7RUFDRSxtQkFBbUI7RUFDbkIsaUJBQWlCO0VBQ2pCLFdBQVc7RUFDWCxjQUFjO0VBQ2QsY0FBYztFQUNkLCtCQUErQjtDQUNoQztBQUVEO0VBQ0UsZUFBZTtFQUNmLGFBQWE7RUFDYixtQ0FBbUM7RUFDbkMsc0NBQXNDO0VBQ3RDLG1CQUFtQjtFQUNuQixpQkFBaUI7RUFDakIsc0JBQXNCO0NBQ3ZCO0FBRUQ7RUFDRSwyQ0FBMkM7Q0FDNUM7QUFFRDtFQUNFLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsd0JBQXdCO0VBQ3hCLFlBQVk7Q0FDYjtBQUVEO0VBQ0UsbUJBQW1CO0VBQ25CLFlBQVk7RUFDWixtQ0FBbUM7RUFDbkMsc0NBQXNDO0VBQ3RDLGlCQUFpQjtFQUNqQixtQkFBbUI7Q0FDcEI7QUFFRDtFQUNFLGdCQUFnQjtFQUNoQixjQUFjO0VBQ2QsYUFBYTtFQUNiLGtCQUFrQjtDQUNuQjtBQUVEO0VBQ0UsaUJBQWlCO0VBQ2pCLGtCQUFrQjtDQUNuQjtBQUVEO0VBQ0UsY0FBYztFQUNkLG9CQUFvQjtFQUNwQixzQkFBc0I7RUFDdEIsWUFBWTtDQUNiO0FBRUQ7RUFDRSxlQUFlO0VBQ2YsY0FBYztFQUNkLG9CQUFvQjtFQUNwQixnQkFBZ0I7RUFDaEIsa0JBQWtCO0VBQ2xCLHdDQUF3QztFQUN4QyxtQkFBbUI7RUFDbkIsaUVBQWlFO0VBQ2pFLGlCQUFpQjtFQUNqQixpQkFBaUI7Q0FDbEI7QUFFRDtFQUNFLGlFQUFpRTtFQUNqRSxxQ0FBcUM7RUFDckMsNEJBQTRCO0NBQzdCO0FBQ0Q7RUFDRSxhQUFhO0VBQ2IsWUFBWTtFQUNaLGtCQUFrQjtDQUNuQiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFJlbW92ZSB0ZW1wbGF0ZSBjb2RlIGJlbG93XG4gKi9cbjpob3N0IHtcbiAgZGlzcGxheTogYmxvY2s7XG4gIGZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmO1xuICBtaW4td2lkdGg6IDMwMHB4O1xuICBtYXgtd2lkdGg6IDYwMHB4O1xuICBtYXJnaW46IDUwcHggYXV0bztcbn1cblxuLmd1dHRlci1sZWZ0IHtcbiAgbWFyZ2luLWxlZnQ6IDlweDtcbn1cblxuLmNvbC1zcGFuLTIge1xuICBncmlkLWNvbHVtbjogc3BhbiAyO1xufVxuXG4uZmxleCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xufVxuXG5oZWFkZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTQzMDU1O1xuICBjb2xvcjogd2hpdGU7XG4gIHBhZGRpbmc6IDVweDtcbiAgYm9yZGVyLXJhZGl1czogM3B4O1xufVxuXG5tYWluIHtcbiAgcGFkZGluZzogMCAzNnB4O1xufVxuXG5wIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG5oMSB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgbWFyZ2luLWxlZnQ6IDE4cHg7XG4gIGZvbnQtc2l6ZTogMjRweDtcbn1cblxuaDIge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogMjBweDtcbiAgbWFyZ2luOiA0MHB4IDAgMTBweCAwO1xufVxuXG4ucmVzb3VyY2VzIHtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBsaXN0LXN0eWxlOiBub25lO1xuICBwYWRkaW5nOiAwO1xuICBkaXNwbGF5OiBncmlkO1xuICBncmlkLWdhcDogOXB4O1xuICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmciAxZnI7XG59XG5cbi5yZXNvdXJjZSB7XG4gIGNvbG9yOiAjMDA5NGJhO1xuICBoZWlnaHQ6IDM2cHg7XG4gIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkIHJnYmEoMCwgMCwgMCwgMC4xMik7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgcGFkZGluZzogM3B4IDlweDtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xufVxuXG4ucmVzb3VyY2U6aG92ZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDY4LCAxMzgsIDI1NSwgMC4wNCk7XG59XG5cbnByZSB7XG4gIHBhZGRpbmc6IDlweDtcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcbiAgY29sb3I6ICNlZWU7XG59XG5cbmRldGFpbHMge1xuICBib3JkZXItcmFkaXVzOiA0cHg7XG4gIGNvbG9yOiAjMzMzO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDAsIDAsIDAsIDApO1xuICBib3JkZXI6IDFweCBzb2xpZCByZ2JhKDAsIDAsIDAsIDAuMTIpO1xuICBwYWRkaW5nOiAzcHggOXB4O1xuICBtYXJnaW4tYm90dG9tOiA5cHg7XG59XG5cbnN1bW1hcnkge1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIG91dGxpbmU6IG5vbmU7XG4gIGhlaWdodDogMzZweDtcbiAgbGluZS1oZWlnaHQ6IDM2cHg7XG59XG5cbi5naXRodWItc3Rhci1jb250YWluZXIge1xuICBtYXJnaW4tdG9wOiAxMnB4O1xuICBsaW5lLWhlaWdodDogMjBweDtcbn1cblxuLmdpdGh1Yi1zdGFyLWNvbnRhaW5lciBhIHtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICBjb2xvcjogIzMzMztcbn1cblxuLmdpdGh1Yi1zdGFyLWJhZGdlIHtcbiAgY29sb3I6ICMyNDI5MmU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgcGFkZGluZzogM3B4IDEwcHg7XG4gIGJvcmRlcjogMXB4IHNvbGlkIHJnYmEoMjcsIDMxLCAzNSwgMC4yKTtcbiAgYm9yZGVyLXJhZGl1czogM3B4O1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoLTE4MGRlZywgI2ZhZmJmYywgI2VmZjNmNiA5MCUpO1xuICBtYXJnaW4tbGVmdDogNHB4O1xuICBmb250LXdlaWdodDogNjAwO1xufVxuXG4uZ2l0aHViLXN0YXItYmFkZ2U6aG92ZXIge1xuICBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoLTE4MGRlZywgI2YwZjNmNiwgI2U2ZWJmMSA5MCUpO1xuICBib3JkZXItY29sb3I6IHJnYmEoMjcsIDMxLCAzNSwgMC4zNSk7XG4gIGJhY2tncm91bmQtcG9zaXRpb246IC0wLjVlbTtcbn1cbi5naXRodWItc3Rhci1iYWRnZSAubWF0ZXJpYWwtaWNvbnMge1xuICBoZWlnaHQ6IDE2cHg7XG4gIHdpZHRoOiAxNnB4O1xuICBtYXJnaW4tcmlnaHQ6IDRweDtcbn1cbiJdfQ== */"
+
+/***/ }),
+
 /***/ "./src/app/app.component.html":
 /*!************************************!*\
   !*** ./src/app/app.component.html ***!
@@ -448,18 +41,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div style=\"text-align:center\">\n  <h1>Welcome to {{ title }}!</h1>\n  <img\n    width=\"300\"\n    src=\"https://raw.githubusercontent.com/nrwl/nx/master/nx-logo.png\"\n  />\n</div>\n\n<h2>This is an Angular CLI app built with Nrwl Nx!</h2>\n\nAn open source toolkit for enterprise Angular applications. Nx is designed to\nhelp you create and build enterprise grade Angular applications. It provides an\nopinionated approach to application project structure and patterns.\n\n<h2>Quick Start & Documentation</h2>\n\n<a href=\"https://nrwl.io/nx\"\n  >Watch a 5-minute video on how to get started with Nx.</a\n>\n<router-outlet></router-outlet>\n"
-
-/***/ }),
-
-/***/ "./src/app/app.component.scss":
-/*!************************************!*\
-  !*** ./src/app/app.component.scss ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */"
+module.exports = "<header class=\"flex\">\n  <img\n    alt=\"Nx logo\"\n    width=\"75\"\n    src=\"https://nx.dev/assets/images/nx-logo-white.svg\"\n  />\n  <h1>Welcome to {{ title }}!</h1>\n</header>\n<main>\n  <h2>Resources &amp; Tools</h2>\n  <p>\n    Thank you for using and showing some ♥ for Nx.\n  </p>\n  <div class=\"flex github-star-container\">\n    <a\n      href=\"https://github.com/nrwl/nx\"\n      target=\"_blank\"\n      rel=\"noopener noreferrer\"\n    >\n      If you like Nx, please give it a star:\n      <div class=\"github-star-badge\">\n        <svg\n          class=\"material-icons\"\n          xmlns=\"http://www.w3.org/2000/svg\"\n          width=\"24\"\n          height=\"24\"\n          viewBox=\"0 0 24 24\"\n        >\n          <path d=\"M0 0h24v24H0z\" fill=\"none\" />\n          <path\n            d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"\n          />\n        </svg>\n        Star\n      </div>\n    </a>\n  </div>\n  <p>\n    Here are some links to help you get started.\n  </p>\n  <ul class=\"resources\">\n    <li class=\"col-span-2\">\n      <a\n        class=\"resource flex\"\n        href=\"https://connect.nrwl.io/app/courses/nx-workspaces/intro\"\n      >\n        Nx video course\n      </a>\n    </li>\n    <li class=\"col-span-2\">\n      <a\n        class=\"resource flex\"\n        href=\"https://nx.dev/angular/getting-started/what-is-nx\"\n      >\n        Nx video tutorial\n      </a>\n    </li>\n    <li class=\"col-span-2\">\n      <a\n        class=\"resource flex\"\n        href=\"https://nx.dev/angular/tutorial/01-create-application\"\n      >\n        Interactive tutorial\n      </a>\n    </li>\n    <li class=\"col-span-2\">\n      <a class=\"resource flex\" href=\"https://nx.app/\">\n        <svg\n          width=\"36\"\n          height=\"36\"\n          viewBox=\"0 0 120 120\"\n          fill=\"none\"\n          xmlns=\"http://www.w3.org/2000/svg\"\n        >\n          <path\n            d=\"M120 15V30C103.44 30 90 43.44 90 60C90 76.56 76.56 90 60 90C43.44 90 30 103.44 30 120H15C6.72 120 0 113.28 0 105V15C0 6.72 6.72 0 15 0H105C113.28 0 120 6.72 120 15Z\"\n            fill=\"#0E2039\"\n          />\n          <path\n            d=\"M120 30V105C120 113.28 113.28 120 105 120H30C30 103.44 43.44 90 60 90C76.56 90 90 76.56 90 60C90 43.44 103.44 30 120 30Z\"\n            fill=\"white\"\n          />\n        </svg>\n        <span class=\"gutter-left\">Nx Cloud</span>\n      </a>\n    </li>\n  </ul>\n  <h2>Next Steps</h2>\n  <p>Here are some things you can do with Nx.</p>\n  <details open>\n    <summary>Add UI library</summary>\n    <pre>\n# Generate UI lib\nng g @nrwl/angular:lib ui\n\n# Add a component\nng g @nrwl/angular:component xyz --project ui</pre\n    >\n  </details>\n  <details>\n    <summary>View dependency graph</summary>\n    <pre>nx dep-graph</pre>\n  </details>\n  <details>\n    <summary>Run affected commands</summary>\n    <pre>\n# see what's been affected by changes\nng affected:dep-graph\n\n# run tests for current changes\nng affected:test\n\n# run e2e tests for current changes\nng affected:e2e\n</pre\n    >\n  </details>\n</main>\n\n<router-outlet></router-outlet>\n"
 
 /***/ }),
 
@@ -485,7 +67,7 @@ var AppComponent = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'ionicnx-root',
             template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
-            styles: [__webpack_require__(/*! ./app.component.scss */ "./src/app/app.component.scss")]
+            styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
         })
     ], AppComponent);
     return AppComponent;
@@ -509,11 +91,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "../../node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _nrwl_nx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @nrwl/nx */ "../../node_modules/@nrwl/nx/esm5/nrwl-nx.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ionic/angular */ "../../node_modules/@ionic/angular/dist/fesm5.js");
-
-
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "../../node_modules/@angular/router/fesm5/router.js");
 
 
 
@@ -527,12 +105,10 @@ var AppModule = /** @class */ (function () {
             declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-                _nrwl_nx__WEBPACK_IMPORTED_MODULE_4__["NxModule"].forRoot(),
-                _angular_router__WEBPACK_IMPORTED_MODULE_5__["RouterModule"].forRoot([], { initialNavigation: 'enabled' }),
-                _ionic_angular__WEBPACK_IMPORTED_MODULE_6__["IonicModule"].forRoot()
+                _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forRoot([], { initialNavigation: 'enabled' }),
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]],
         })
     ], AppModule);
     return AppModule;
@@ -556,7 +132,7 @@ __webpack_require__.r(__webpack_exports__);
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 var environment = {
-    production: false
+    production: false,
 };
 /*
  * For easier debugging in development mode, you can import the following file

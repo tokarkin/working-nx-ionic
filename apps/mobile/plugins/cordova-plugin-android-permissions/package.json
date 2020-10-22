@@ -1,5 +1,5 @@
 {
-  "_from": "cordova-plugin-android-permissions@^1.0.2",
+  "_from": "cordova-plugin-android-permissions@^1.1.0",
   "_id": "cordova-plugin-android-permissions@1.1.0",
   "_inBundle": false,
   "_integrity": "sha512-5zw+sMEak3iqZkl5/L0Q3n7d2qe/KjKm1P7qb7BhvsxT3r+05YiTPdfXC5dSdg6ZW8ObRTRH+CdMC1nBjwb5Pg==",
@@ -8,12 +8,12 @@
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "cordova-plugin-android-permissions@^1.0.2",
+    "raw": "cordova-plugin-android-permissions@^1.1.0",
     "name": "cordova-plugin-android-permissions",
     "escapedName": "cordova-plugin-android-permissions",
-    "rawSpec": "^1.0.2",
+    "rawSpec": "^1.1.0",
     "saveSpec": null,
-    "fetchSpec": "^1.0.2"
+    "fetchSpec": "^1.1.0"
   },
   "_requiredBy": [
     "#USER",
@@ -21,7 +21,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-android-permissions/-/cordova-plugin-android-permissions-1.1.0.tgz",
   "_shasum": "cdd4bf7c40d15c5e55ae27a18a782d5ebebf0230",
-  "_spec": "cordova-plugin-android-permissions@^1.0.2",
+  "_spec": "cordova-plugin-android-permissions@^1.1.0",
   "_where": "/Users/sportkatie/Downloads/ionicnx-master 2/apps/mobile",
   "author": {
     "name": "Jason Yang"
