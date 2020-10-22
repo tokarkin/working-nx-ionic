@@ -1,0 +1,8 @@
+{
+  "name": "mobile",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "root": "apps/mobile"
+}
